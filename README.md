@@ -19,10 +19,5 @@
 
 ## Выполнение
 
-### Первое задание
-
-Разделено на два проекта AreaCalculator и AreaCalculator.Tests
-
-### Второе задание
-
-Код SQL-запроса в файле query.sql
++ Первое задание: разделено на два проекта AreaCalculator и AreaCalculator.Tests
++ Второе задание: код SQL-запроса в файле query.sql

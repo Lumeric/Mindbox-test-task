@@ -107,4 +107,15 @@ public class AreaCalculatorTests
 
         Assert.IsFalse(isRight);
     }
+
+
+    [Test]
+    public void IsRightTriangle_NotRightTriangleSidesInputTooBigTolerance_ReturnTrue()
+    {
+        var triangle = new Triangle(firstSide: 3, secondSide: 6, thirdSide: 7);
+
+        var isRight = triangle.IsRight(100);
+
+        Assert.IsTrue(isRight);
+    }
 }

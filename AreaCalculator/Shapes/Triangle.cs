@@ -22,6 +22,9 @@ public class Triangle : Shape
         Sides = new[] { firstSide, secondSide, thirdSide };
     }
 
+    /// <summary>
+    /// Array of triangle side lengths.
+    /// </summary>
     public double[] Sides { get; }
 
     /// <summary>
